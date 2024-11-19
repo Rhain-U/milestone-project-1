@@ -49,7 +49,7 @@ h1 {
 }
 
 #logo {
-    font-size: 75%;
+    font-size: 100%;
     line-height: 30px;
     margin: 0 0.5rem;
     
@@ -148,7 +148,7 @@ footer {
    
 }
 
-#social-network {
+#social-networks {
     text-align: center;
     padding: 5px 0;
     display: flex;
@@ -157,8 +157,18 @@ footer {
 
 }
 
+#social-networks i {
+    color: #ffffff;
+    
+}
+
 footer >h3 {
     text-align: center;
+}
+
+footer p {
+    text-align: center;
+    font-size: 25px;
 }
 
 /*Media Queries/*
