@@ -21,20 +21,21 @@ color: #3a3a3a ;
 }
 
 header {
-    background-color: whitesmoke;
+    background-color: #e3e7af;
+    padding: 0 1 rem;
+    position: fixed;
+    z-index: 99;
+    box-shadow: 0 2px 2px #3a3a3a;
 
-}
-#logo {
-    
 }
 
 main {
-    background-color: lightcoral;
+    background-color: #99b2dd;
     /*make main element take up any suplus space*/
     flex: 1 0 auto;
 }
 
 footer {
-    background-color: lightgreen;
+    background-color: #353d2f;
    
 }
