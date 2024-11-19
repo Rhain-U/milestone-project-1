@@ -29,7 +29,7 @@ header {
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
-    
+    box-shadow: 0 2px 2px #2a2a2a;
     width: 100%;
     
 }
@@ -70,23 +70,22 @@ h1 {
 }
 
 .active {
-    border-bottom: 3px solid white;
+    border-bottom: 2px solid #2a2a2a
 }
 
 /*Navbar style with dropdown toggle*/
+
 nav {
     position: absolute;
-    background-color: #E3E3DD;
-    background-color:;
     width: 100%;
     left: 0;
     padding: 0 1rem;
-    box-shadow: 0 2px 2px #2a2a2a;
+    box-shadow: 0 0 2px #2a2a2a;
     display: none;
-   
-   
-    
+
 }
+ 
+
 
 main {
     background-color:;
