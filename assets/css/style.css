@@ -47,6 +47,12 @@ h1 {
     color: #252525;
 }
 
+#logo {
+    font-size: 125%;
+    line-height: 50px;
+    margin: 0 0.5rem;
+}
+
 #menu {
     font-size: 110%;
     letter-spacing: 2px;
