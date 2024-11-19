@@ -24,8 +24,8 @@ body {
 /* Header*/
 
 header {
-    background-color: #CAC7BA;
-    padding: 0 1 rem;
+    background-color: #E3E3DD;
+    padding: 0 1rem;
     position: fixed;
     z-index: 99;
     box-shadow: 0 2px 2px #353d2f;
@@ -61,7 +61,9 @@ h1 {
 #menu>li {
 
     display: inline;
-    justify-content: space-between
+    justify-content: space-between;
+    
+    
 }
 
 .active {
