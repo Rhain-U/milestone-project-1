@@ -148,7 +148,18 @@ footer {
    
 }
 
-#
+#social-network {
+    text-align: center;
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+
+}
+
+footer >h3 {
+    text-align: center;
+}
 
 /*Media Queries/*
 
