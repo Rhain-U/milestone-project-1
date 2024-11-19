@@ -158,7 +158,40 @@ footer {
         display: none;
     }
 
+    #logo {
+        font-size: 125%;
+        line-height: 50px;
+        margin: 0 0.5rem;
+    }
 
+    /*Main Content*/
+    main {
+        /*Push margin content down to accomadate for larger screens*/
+        margin-top: 50px;
+    }
 }
     
+/*Media queries: Laptops & Desktops (992px and up.)*/
+@media screen and (min-width:992px) {
 
+    #menu a:hover{
+        border-bottom: 1px solid #3a3a3a;
+    }
+
+    #logo {
+        font-size: 175%;
+        line-height: 50px;
+        margin: 0 0.5rem;
+    }
+
+     /*Main Content*/
+     main {
+        /*Push margin content down to accomadate for larger screens*/
+        margin-top: 55px;
+    }
+
+    #menu {
+        display: flex;
+        font-size: 125%;
+    }
+}
