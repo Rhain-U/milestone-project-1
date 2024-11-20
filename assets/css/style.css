@@ -169,11 +169,8 @@ main {
     text-transform: uppercase;
 }
 
-.center {
-    margin: auto;
-    width: 50%;
-    border: 3px solid #353d2f;
-    padding: 10px;
+#services .card-text {
+    min-height: 120px;
 }
 
 .card-body {
@@ -188,6 +185,10 @@ main {
 .card-title {
     text-transform: uppercase;
     font-weight: bold;
+}
+
+#services.btn-secondary-outline :hover {
+    background-color: #DADFF7;
 }
 
 
@@ -261,7 +262,7 @@ footer p {
         /*Push margin content down to accomadate for larger screens*/
         margin-top: 50px;
     }
-}
+
     
 /*Media queries: Laptops & Desktops (992px and up.)*/
 @media screen and (min-width:992px) {
