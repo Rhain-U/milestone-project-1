@@ -129,14 +129,28 @@ nav {
 .nav-toggle-label {
     font-size: 2rem;
 }
+/* Main Section*/
 
 main {
     background-color: #6F919B;
-    background-color:;
     /*make main element take up any suplus space*/
     flex: 1 0 auto;
-    margin-top: 38px;
+    margin-top: 75px;
     
+}
+/*About me section*/
+
+#about {
+    text-align: center;
+    font-size: 75%;
+    padding: 10px 10px;
+    margin: 0 5px;
+}
+
+#about h3 {
+    font-size: 100%;
+    text-transform: uppercase;
+    padding-bottom: 4px;
 }
 
 /*Footer section*/
