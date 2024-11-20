@@ -160,6 +160,37 @@ main {
     max-height: 400px;
 }
 
+/*Services section*/
+
+#services {
+    text-align: center;
+    font-family: gruppo,sans-serif;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid #353d2f;
+    padding: 10px;
+}
+
+.card-body {
+    background-color:#a2a77f ;
+}
+
+.card-text,.card-title {
+    font-family: gruppo,sans-serif;
+    columns: #2a2a2a;
+}
+
+.card-title {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
 /*Footer section*/
 footer {
     background-color: #353d2f;
