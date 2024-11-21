@@ -187,8 +187,9 @@ main {
     font-weight: bold;
 }
 
-#services.btn-secondary-outline :hover {
+#services.btn-btn-light:hover {
     background-color: #DADFF7;
+    border-color: #a2a77f;
 }
 
 
