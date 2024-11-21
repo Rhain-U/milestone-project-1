@@ -139,7 +139,7 @@ main {
 .hero {
     height: 600px;
     width: 100%;
-    background: url(../images/pexels-alex-green-5699431.jpg) no-repeat center center/ cover;
+    background: url(../images/pexels-alex-green-5699431.webp) no-repeat center center/ cover;
     position: relative;
     
 }
@@ -172,11 +172,52 @@ main {
     color: #2a2a2a;
 }
 
-#about > h3 {
+#about h3 {
     font-size: 130%;
     text-transform: uppercase;
     padding-bottom: 4px;
 }
+
+#circle-cover-bg {
+    background: url(../images/youssef-naddam-iJ2IG8ckCpA-unsplash.webp) no-repeat top center / cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    /*to make the image into a circle*/
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#approach-circle-cover-bg {
+    background: url(../images/priscilla-du-preez-3gAiajAfjXI-unsplash.webp) no-repeat top center / cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    /*to make the image into a circle*/
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#why-circle-cover-bg {
+    background: url(../images/dylan-ferreira-HJmxky8Fvmo-unsplash.webp) no-repeat top center / cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    /*to make the image into a circle*/
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#about-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 
 
 
