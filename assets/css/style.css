@@ -189,7 +189,7 @@ main {
     max-height: 300px;
 }
 
-#approach-circle-cover-bg {
+#circle-cover-bg-2 {
     background: url(../images/priscilla-du-preez-3gAiajAfjXI-unsplash.webp) no-repeat top center / cover;
     height: 90vw;
     width: 90vw;
@@ -198,9 +198,11 @@ main {
     border-radius: 50%;
     max-width: 300px;
     max-height: 300px;
+    
 }
 
-#why-circle-cover-bg {
+
+#circle-cover-bg-3 {
     background: url(../images/dylan-ferreira-HJmxky8Fvmo-unsplash.webp) no-repeat top center / cover;
     height: 90vw;
     width: 90vw;
@@ -216,10 +218,6 @@ main {
     align-items: center;
     justify-content: center;
 }
-
-
-
-
 
 /*Services section*/
 
