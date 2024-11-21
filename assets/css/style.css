@@ -28,6 +28,7 @@ h1, h2, h3 {
     letter-spacing: 2px;
     color: #252525;
     
+    
 }
 
 /* Header */
@@ -49,13 +50,6 @@ header a {
     color: inherit;
 }
 
-
-#logo {
-    font-size: 100%;
-    line-height: 30px;
-    margin: 0 0.5rem;
-    
-}
 
 #menu {
     font-size: 110%;
@@ -172,14 +166,14 @@ main {
 
 #about {
     text-align: center;
-    font-size: 90%;
+    font-size: 100%;
     padding: 10px 10px;
     margin: 0 5px;
     color: #2a2a2a;
 }
 
-#about h3 {
-    font-size: 150%;
+#about > h3 {
+    font-size: 130%;
     text-transform: uppercase;
     padding-bottom: 4px;
 }
@@ -247,6 +241,7 @@ footer {
 
 footer >h3 {
     text-align: center;
+    color: #DADFF7;
 }
 
 footer p {
@@ -325,6 +320,13 @@ footer p {
     #menu {
         display: flex;
         font-size: 125%;
+    }
+
+    /*Hero*/
+    #cover-text {
+        width: 600px;
+        right: 50px;
+
     }
 
    }
