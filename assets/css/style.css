@@ -177,8 +177,9 @@ main {
 }
 
 
-#services.card-text {
+#services .row {
     min-height: 120px;
+    
     
 }
 
