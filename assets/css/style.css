@@ -33,6 +33,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    
 }
 
 header a {
@@ -135,9 +136,19 @@ main {
     background-color: #DADFF7;
     /*make main element take up any suplus space*/
     flex: 1 0 auto;
-    margin-top: 75px;
+    margin-top: 55px;
+   
+}
+
+/*hero image*/
+.hero {
+    height: 600px;
+    width: 100%;
+    background: url(../images/pexels-alex-green-5699431.jpg) no-repeat center center/ cover;
     
 }
+
+
 /*About me section*/
 
 #about {
@@ -154,11 +165,7 @@ main {
     padding-bottom: 4px;
 }
 
-/*hero image*/
-.hero {
-    width: 100%;
-    max-height: 400px;
-}
+
 
 /*Services section*/
 
@@ -166,11 +173,13 @@ main {
     text-align: center;
     font-family: gruppo,sans-serif;
     padding-bottom: 5px;
-    text-transform: uppercase;
+    
 }
+
 
 #services.card-text {
     min-height: 120px;
+    
 }
 
 .card-body {
@@ -227,6 +236,7 @@ footer p {
 
 /*Media Queries/*
 
+
 /*Media queries: Tablets and larger (768px and up.)*/
 @media screen and (min-width:768px) {
 
@@ -261,9 +271,9 @@ footer p {
     /*Main Content*/
     main {
         /*Push margin content down to accomadate for larger screens*/
-        margin-top: 50px;
+        margin-top: 60px
     }
-
+}
     
 /*Media queries: Laptops & Desktops (992px and up.)*/
 @media screen and (min-width:992px) {
@@ -281,11 +291,21 @@ footer p {
      /*Main Content*/
      main {
         /*Push margin content down to accomadate for larger screens*/
-        margin-top: 55px;
+        margin-top: 75px;
     }
 
     #menu {
         display: flex;
         font-size: 125%;
     }
+
+   }
+
+   /*Media queries: XL screens (1000px and up.)*/
+@media screen and (min-width:1000px) {
+
+    #hero {
+        max-width: 900px;
+    }
+
 }
