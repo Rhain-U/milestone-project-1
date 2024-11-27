@@ -178,8 +178,7 @@ main {
     padding-bottom: 4px;
 }
 
-#circle-cover-bg {
-    background: url(../images/youssef-naddam-iJ2IG8ckCpA-unsplash.webp) no-repeat top center / cover;
+.circle-cover-bg {
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
@@ -187,10 +186,10 @@ main {
     border-radius: 50%;
     max-width: 300px;
     max-height: 300px;
+
 }
 
-#circle-cover-bg-2 {
-    background: url(../images/priscilla-du-preez-3gAiajAfjXI-unsplash.webp) no-repeat top center / cover;
+.circle-cover-bg-2 {
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
@@ -202,8 +201,7 @@ main {
 }
 
 
-#circle-cover-bg-3 {
-    background: url(../images/dylan-ferreira-HJmxky8Fvmo-unsplash.webp) no-repeat top center / cover;
+.circle-cover-bg-3 {
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
@@ -335,7 +333,11 @@ footer p {
 
     }
 
+    /*About us section*/
+  
+
 }
+
     
 /*Media queries: Laptops & Desktops (992px and up.)*/
 @media screen and (min-width:992px) {
@@ -364,11 +366,70 @@ footer p {
     /*Hero*/
     #cover-text {
         width: 600px;
-        right: 50px;
+        
 
     }
 
-   }
+
+    /*About section*/
+    #about-who {
+        text-align: start;
+        justify-content: flex-start;
+        width: 100%;
+        padding-bottom: 40px;
+        justify-self: center;
+        
+          
+    }
+
+    .circle-cover-bg {
+        float: right;
+        max-width: 200px;
+        max-height: 200px;
+       
+       
+         
+    }
+
+    #about-approach {
+        text-align: end;
+        justify-content:flex-end;
+        width: 100%;
+        padding-bottom: 40px;
+        justify-self: center;
+        
+    }
+
+    .circle-cover-bg-2 {
+        float: left;
+        max-width: 200px;
+        max-height: 200px;
+        
+         
+    }
+
+    #about-why {
+        text-align: start;
+        justify-content: flex-start;
+        width: 100%;
+        padding-bottom: 40px;
+        justify-self: center;
+        
+          
+    }
+
+    .circle-cover-bg-3 {
+        float: right;
+        max-width: 200px;
+        max-height: 200px;
+        
+       
+         
+    }
+
+    
+
+}
 
    /*Media queries: XL screens (1000px and up.)*/
 @media screen and (min-width:1000px) {
@@ -377,4 +438,72 @@ footer p {
         max-width: 900px;
     }
 
+    /*About section*/
+    #about-who {
+        text-align: start;
+        justify-content: flex-start;
+        width: 85%;
+        padding-bottom: 60px;
+        justify-self: flex-start;
+        font-size: 120%;
+        
+          
+    }
+
+    .circle-cover-bg {
+        float: right;
+        max-width: 250px;
+        max-height: 250px;
+       
+       
+         
+    }
+
+    #about-approach {
+        text-align: end;
+        justify-content:flex-end;
+        width: 85%;
+        padding-bottom: 60px;
+        justify-self: flex-end;
+        font-size: 120%;
+        
+    }
+
+    .circle-cover-bg-2 {
+        float: left;
+        max-width: 250px;
+        max-height: 250px;
+        
+         
+    }
+
+    #about-why {
+        text-align: start;
+        justify-content: flex-start;
+        width: 85%;
+        padding-bottom: 60px;
+        justify-self: flex-start;
+        font-size: 120%;
+        
+          
+    }
+
+    .circle-cover-bg-3 {
+        float: right;
+        max-width: 250px;
+        max-height: 250px;
+        
+       
+         
+    }
+
+
+    }
+
+/*Media quries: XXL screen sizes (1200px and above)*/
+@media screen and (min-width:1200px) {
+   
+
+    
 }
+
