@@ -234,7 +234,7 @@ main {
 
 .card-body {
     background-color:#353d2f;
-    opacity: .8;
+    opacity: .9;
     color: #DADFF7;
 
 }
@@ -337,8 +337,10 @@ footer p {
 
     /*Services Section*/
 
-    .container {
-        min-height: 300px;
+    .card-body {
+        min-height: 400px;
+        display: flex;
+        flex-direction: column;
         
     }
   
