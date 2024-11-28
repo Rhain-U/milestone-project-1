@@ -228,11 +228,8 @@ main {
     
 }
 
-
-#services .row {
-    min-height: 120px;
-    
-    
+.card {
+    min-height: 200px;
 }
 
 .card-body {
@@ -338,7 +335,12 @@ footer p {
 
     }
 
-    /*About us section*/
+    /*Services Section*/
+
+    .container {
+        min-height: 300px;
+        
+    }
   
 
 }
@@ -433,6 +435,27 @@ footer p {
         
        
          
+    }
+
+    /*Services Section */
+
+    #services {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .card {
+        min-height: 750px;
+        
+    }
+
+    .card-body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-text.card-title {
+        font-size: 120%;
     }
 
     
