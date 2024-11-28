@@ -236,7 +236,10 @@ main {
 }
 
 .card-body {
-    background-color:#a2a77f ;
+    background-color:#353d2f;
+    opacity: .8;
+    color: #DADFF7;
+
 }
 
 .card-text.card-title {
