@@ -16,6 +16,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: Gruppo, sans-serif;
+    position: absolute;
     
 
     /*Generic project styles*/
@@ -52,7 +53,7 @@ header a {
 
 
 #menu {
-    font-size: 110%;
+    font-size: 100%;
     letter-spacing: 2px;
     list-style-type: none;
     
@@ -131,7 +132,7 @@ main {
     background-color: #DADFF7;
     /*make main element take up any suplus space*/
     flex: 1 0 auto;
-    margin-top: 55px;
+    
    
 }
 
