@@ -257,6 +257,13 @@ main {
     border-color: #a2a77f;
 }
 
+/*Privacy Section*/
+#privacy {
+    width: 85%;
+    display: flex;
+    justify-self: center;
+}
+
 
 /*Footer section*/
 footer {
@@ -478,12 +485,25 @@ footer p {
         font-size: 120%;
     }
 
+      /*Privacy section*/
+      
+      #privacy > .card-body {
+        min-height: 100px;
+    }
+
+    #privacy {
+        width: 85%;
+        display: flex;
+        justify-self: center;
+        
+    }
+
     
 
 }
 
    /*Media queries: XL screens (1000px and up.)*/
-@media screen and (min-width:1000px) {
+   @media screen and (min-width:1000px) {
 
     #hero {
         max-width: 900px;
@@ -540,11 +560,17 @@ footer p {
         float: right;
         max-width: 250px;
         max-height: 250px;
-        
-       
-         
+           
     }
-
+   /*Privacy section*/
+      
+#privacy {
+    width: 85%;
+    display: flex;
+    justify-self: center;
+    min-height: 100px;
+    
+}
 
     }
 
@@ -602,9 +628,17 @@ footer p {
         float: right;
         max-width: 250px;
         max-height: 250px;
-        
        
-         
+    }
+
+      /*Privacy section*/
+     
+    #privacy {
+        width: 85%;
+        display: flex;
+        justify-self: center;
+        min-height: 100px;
+        
     }
    
 
