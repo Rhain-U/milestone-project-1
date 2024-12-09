@@ -28,6 +28,7 @@ h1, h2, h3 {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #252525;
+    font-weight: bold;
     
     
 }
@@ -259,7 +260,7 @@ main {
 
 /*Privacy Section*/
 #privacy {
-    width: 85%;
+    width: 30%;
     display: flex;
     justify-self: center;
 }
@@ -365,9 +366,6 @@ footer p {
         justify-self: center;
         
     }
-   
-    /*Footer*/
-
   
 
 }
@@ -498,7 +496,7 @@ footer p {
         
     }
 
-    
+   
 
 }
 
