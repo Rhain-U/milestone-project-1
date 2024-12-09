@@ -1,28 +1,20 @@
 /*Google font*/
-
 @import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
-
 /*Asterisk wildcard selector to override default styles added by the browser*/
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-
 /*General styles*/
-
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     font-family: Gruppo, sans-serif;
-   position:absolute;
-    
-
     /*Generic project styles*/
     color: #2a2a2a;
 }
-
 h1, h2, h3 {
     font-family: 'gruppo', sans-serif;
     text-transform: uppercase;
@@ -32,12 +24,10 @@ h1, h2, h3 {
     
     
 }
-
 /* Header */
 header {
     background-color: #ffffff;
     padding: 0 1rem;
-    position: fixed;
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
@@ -46,29 +36,28 @@ header {
     align-items: baseline;
     
 }
-
 header a {
     text-decoration: none;
     color: inherit;
 }
-
-
+.wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
 #menu {
     font-size: 100%;
     letter-spacing: 2px;
     list-style-type: none;
     
 }
-
 #menu > li {
     margin-bottom: 1em;
    
 }
-
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
-
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
@@ -80,26 +69,18 @@ nav {
     display: none;
     top: 100%;
 }
-
-
-
 /* Nav toggle */
 #nav-toggle:checked~nav {
     display: block;
 }
-
 #nav-toggle {
     display: none;
 }
-
 .nav-toggle-label {
     font-size: 2rem;
     padding-top: 0.5rem;
 }
-
-
 /*Navbar style with dropdown toggle*/
-
 nav {
     position: absolute;
     background-color: #ffffff;
@@ -110,25 +91,24 @@ nav {
     display: none;
     top: 100%;
     
-
 }
  
+#email {
+    font-size: 0.9rem;
+    color: #DADFF7;
+}
 /*Nav Toggle*/
 #nav-toggle:checked~nav {
     display: block;
 }
-
 #nav-toggle{
     display: none;
     color: #2a2a2a;
-
 }
-
 .nav-toggle-label {
     font-size: 2rem;
 }
 /* Main Section*/
-
 main {
     background-color: #DADFF7;
     /*make main element take up any suplus space*/
@@ -136,16 +116,14 @@ main {
     
    
 }
-
 /*Hero section*/
 .hero {
     height: 600px;
     width: 100%;
-    background: url(../images/pexels-alex-green-5699431.webp) no-repeat center center/ cover;
+    background: url(../images/pexels-alex.jpg) no-repeat center center/ cover;
     position: relative;
     
 }
-
 #cover-text {
     background-color:#353d2f;
     opacity: .8;
@@ -158,14 +136,11 @@ main {
     padding-left: 10px;
   
 }
-
 #cover-text > h2, #cover-text > h3 {
     color: #ffffff;
     font-weight: bold;
 }
-
 /*About me section*/
-
 #about {
     text-align: center;
     font-size: 100%;
@@ -174,14 +149,11 @@ main {
     color: #2a2a2a;
   
 }
-
-
 #about h3 {
     font-size: 130%;
     text-transform: uppercase;
     padding-bottom: 4px;
 }
-
 .circle-cover-bg {
     height: 90vw;
     width: 90vw;
@@ -190,9 +162,7 @@ main {
     border-radius: 50%;
     max-width: 300px;
     max-height: 300px;
-
 }
-
 .circle-cover-bg-2 {
     height: 90vw;
     width: 90vw;
@@ -203,8 +173,6 @@ main {
     max-height: 300px;
     
 }
-
-
 .circle-cover-bg-3 {
     height: 90vw;
     width: 90vw;
@@ -214,58 +182,46 @@ main {
     max-width: 300px;
     max-height: 300px;
 }
-
 #about-image {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
 /*Services section*/
-
 #services {
     text-align: center;
     font-family: gruppo,sans-serif;
     padding-bottom: 5px;
     
 }
-
 .card {
     min-height: 200px;
 }
-
 .card-body {
     background-color:#353d2f;
     opacity: .9;
     color: #DADFF7;
     display: flex;
     flex-direction: column;
-
 }
-
 .card-text.card-title {
     font-family: gruppo,sans-serif;
     columns: #2a2a2a;
 }
-
 .card-title {
     text-transform: uppercase;
     font-weight: bold;
 }
-
 #services.btn-btn-light:hover {
     background-color: #DADFF7;
     border-color: #a2a77f;
 }
-
 /*Privacy Section*/
 #privacy {
-    width: 30%;
+    width: 85%;
     display: flex;
     justify-self: center;
 }
-
-
 /*Footer section*/
 footer {
     background-color: #353d2f;
@@ -274,37 +230,28 @@ footer {
     padding-left: 4px;
    
 }
-
 #social-networks {
     text-align: center;
     padding: 5px 0;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-
 }
-
 #social-networks i {
     color: #ffffff;
     
 }
-
 footer >h3 {
     text-align: center;
     color: #DADFF7;
 }
-
 footer p {
     text-align: center;
     font-size: 25px;
 }
-
 /*Media Queries/*
-
-
 /*Media queries: Tablets and larger (768px and up.)*/
 @media screen and (min-width:768px) {
-
     /*Header*/
     nav {
         display: block;
@@ -313,53 +260,37 @@ footer p {
         width: fit-content;
         padding-right: 1rem;
     }
-
     #menu {
         display: flex;
     }
-
     #menu > li {
         padding-left: 1rem;
-
     }
-
     .nav-toggle-label {
         display: none;
     }
-
     #logo {
         font-size: 125%;
         line-height: 50px;
         margin: 0 0.5rem;
     }
-
     /*Main Content*/
-    main {
-        /*Push margin content down to accomadate for larger screens*/
-        margin-top: 60px
-    }
-
     /*Hero*/
     #cover-text {
         width: 300px;
         right: 50px;
-
     }
-
     /*Services Section*/
-
     .card-body {
         min-height: 400px;
         display: flex;
         flex-direction: column;
         
     }
-
     /*Privacy section*/
     #privacy > .card-body {
         min-height: 100px;
     }
-
     #privacy {
         width: 85%;
         display: flex;
@@ -367,42 +298,28 @@ footer p {
         
     }
   
-
 }
-
     
 /*Media queries: Laptops & Desktops (992px and up.)*/
 @media screen and (min-width:992px) {
-
     #menu a:hover{
         border-bottom: 1px solid #3a3a3a;
     }
-
     #logo {
         font-size: 175%;
         line-height: 50px;
         margin: 0 0.5rem;
     }
-
      /*Main Content*/
-     main {
-        /*Push margin content down to accomadate for larger screens*/
-        margin-top: 75px;
-    }
-
     #menu {
         display: flex;
         font-size: 125%;
     }
-
     /*Hero*/
     #cover-text {
         width: 600px;
         
-
     }
-
-
     /*About section*/
     #about-who {
         text-align: start;
@@ -414,7 +331,6 @@ footer p {
         
           
     }
-
     .circle-cover-bg {
         float: right;
         max-width: 250px;
@@ -424,7 +340,6 @@ footer p {
        
          
     }
-
     #about-approach {
         text-align: start;
         justify-content:flex-start;
@@ -434,7 +349,6 @@ footer p {
         margin-right: 1rem;
         
     }
-
     .circle-cover-bg-2 {
         float: right;
         max-width: 250px;
@@ -442,7 +356,6 @@ footer p {
         
          
     }
-
     #about-why {
         text-align: start;
         justify-content: flex-start;
@@ -452,7 +365,6 @@ footer p {
         
           
     }
-
     .circle-cover-bg-3 {
         float: right;
         max-width: 250px;
@@ -461,52 +373,40 @@ footer p {
        
          
     }
-
     /*Services Section */
-
     #services {
         display: flex;
         justify-content: space-evenly;
     }
-
     .card {
         min-height: 750px;
         
     }
-
     .card-body {
         display: flex;
         flex-direction: column;
     }
-
     .card-text.card-title {
         font-size: 120%;
     }
-
       /*Privacy section*/
       
       #privacy > .card-body {
         min-height: 100px;
     }
-
     #privacy {
         width: 85%;
         display: flex;
         justify-self: center;
         
     }
-
    
-
 }
-
    /*Media queries: XL screens (1000px and up.)*/
    @media screen and (min-width:1000px) {
-
     #hero {
         max-width: 900px;
     }
-
     /*About section*/
     #about-who {
         text-align: center;
@@ -517,7 +417,6 @@ footer p {
         
           
     }
-
     .circle-cover-bg {
         float: right;
         max-width: 250px;
@@ -526,7 +425,6 @@ footer p {
        
          
     }
-
     #about-approach {
         text-align: start;
         justify-content:flex-start;
@@ -536,7 +434,6 @@ footer p {
         margin-top: 1rem;
         
     }
-
     .circle-cover-bg-2 {
         float: right;
         max-width: 250px;
@@ -544,7 +441,6 @@ footer p {
         
          
     }
-
     #about-why {
         text-align: start;
         width: 100%;
@@ -553,7 +449,6 @@ footer p {
         
           
     }
-
     .circle-cover-bg-3 {
         float: right;
         max-width: 250px;
@@ -569,12 +464,9 @@ footer p {
     min-height: 100px;
     
 }
-
     }
-
 /*Media quries: XXL screen sizes (1200px and above)*/
 @media screen and (min-width:1200px) {
-
        /*About section*/
        #about-who {
         text-align: start;
@@ -585,7 +477,6 @@ footer p {
         
           
     }
-
     .circle-cover-bg {
         float: right;
         max-width: 250px;
@@ -594,7 +485,6 @@ footer p {
        
          
     }
-
     #about-approach {
         text-align: start;
         justify-content:flex-start;
@@ -604,7 +494,6 @@ footer p {
         margin-top: 1rem;
         
     }
-
     .circle-cover-bg-2 {
         float: right;
         max-width: 250px;
@@ -612,7 +501,6 @@ footer p {
         
          
     }
-
     #about-why {
         text-align: start;
         width: 100%;
@@ -621,14 +509,12 @@ footer p {
         
           
     }
-
     .circle-cover-bg-3 {
         float: right;
         max-width: 250px;
         max-height: 250px;
        
     }
-
       /*Privacy section*/
      
     #privacy {
@@ -639,7 +525,5 @@ footer p {
         
     }
    
-
     
 }
-
