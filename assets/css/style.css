@@ -96,6 +96,7 @@ nav {
 #email {
     font-size: 0.9rem;
     color: #DADFF7;
+    margin-bottom: 0;
 }
 /*Nav Toggle*/
 #nav-toggle:checked~nav {
@@ -225,6 +226,22 @@ main {
 
 /*Contact form section*/
 
+#contact {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    background-color: #353d2f;
+    opacity: 0.9;
+    color: #DADFF7;
+    border-radius: 4px;
+    margin: 1rem;
+}
+
+#contact h3 {
+    color: #DADFF7;
+}
+
 
 /*Footer section*/
 footer {
@@ -233,12 +250,7 @@ footer {
     color: #DADFF7;
     padding-left: 4px;
     bottom: 0;
-    
-   
-  
 
-  
-   
 }
 #social-networks {
     text-align: center;
@@ -259,6 +271,7 @@ footer p {
     text-align: center;
     font-size: 25px;
 }
+
 /*Media Queries/*
 /*Media queries: Tablets and larger (768px and up.)*/
 @media screen and (min-width:768px) {
