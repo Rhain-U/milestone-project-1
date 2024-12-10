@@ -256,6 +256,14 @@ main {
 
 #contact h3 {
     color: #DADFF7;
+    position: relative;
+    
+}
+
+#form-title {
+    text-align: center;
+    color: #DADFF7;
+  
 }
 
 
@@ -305,8 +313,12 @@ footer p {
     #menu > li {
         padding-left: 1rem;
     }
+
+    #nav-toggle:checked~nav {
+        display: block;
+    }
     .nav-toggle-label {
-        display: none;
+        display:none
     }
     #logo {
         font-size: 125%;
@@ -335,6 +347,12 @@ footer p {
         display: flex;
         justify-self: center;
         
+    }
+
+    /*Contact form section*/
+    #form {
+        width: 80%;
+
     }
   
 }
