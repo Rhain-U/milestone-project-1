@@ -15,7 +15,7 @@ body {
     /*Generic project styles*/
     color: #2a2a2a;
 }
-h1, h2, h3 {
+h1, h2, h3,  h4, h5 {
     font-family: 'gruppo', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -218,10 +218,57 @@ main {
     border-color: #a2a77f;
 }
 /*Privacy Section*/
+
+/*index card*/
 #privacy {
     width: 85%;
     display: flex;
     justify-self: center;    
+}
+
+/*Privacy policy section*/
+#privacy {
+    width: 85%;
+    text-align: center;
+    
+}
+
+.policy {
+    background-color: #353d2f;
+    opacity: 0.9;
+    color: #DADFF7;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    font-size: 110%;
+
+}
+
+#rights {
+    display: flex;
+    background-color: #353d2f;
+    color: #DADFF7;
+    opacity: 0.9;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    width: 85%;
+    text-align: center;
+    justify-self: center;
+}
+
+
+
+.policy h3, h4, h5, h6 {
+    color: #DADFF7;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.policy p {
+    padding: 10px;
 }
 
 /*Contact form section*/
