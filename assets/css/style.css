@@ -301,32 +301,38 @@ footer p {
 /*Media queries: Tablets and larger (768px and up.)*/
 @media screen and (min-width:768px) {
     /*Header*/
+
     nav {
-        display: block;
-        position: relative;
+        display:block;
+        position:static;
         box-shadow: none;
-        width: fit-content;
+        width:fit-content;
         padding-right: 1rem;
+        
     }
-   
-    #nav-toggle:checked~nav {
-        display: block;
+    
+    #menu {
+        display:flex;
+        flex-direction: row;
+        font-size: 100%;
+        font-weight: bold;
+        
+         
     }
+    
+    #menu > li {
+        padding-left:1rem;
+        list-style-type: none;
+    }
+    
     .nav-toggle-label {
-        display:none
+        display: none;
     }
 
-    #menu {
-        font-size: 100%;
-        letter-spacing: 2px;
-        
-        
+    #menu a:hover{
+        border-bottom: 1px solid #3a3a3a;
     }
-    #menu > li {
-        margin-bottom: 1em;
-        
-       
-    }
+    
     #logo {
         font-size: 125%;
         line-height: 50px;
@@ -361,11 +367,35 @@ footer p {
         width: 80%;
 
     }
-  
 }
     
 /*Media queries: Laptops & Desktops (992px and up.)*/
 @media screen and (min-width:992px) {
+
+    nav {
+        display:block;
+        position:static;
+        box-shadow: none;
+        width:fit-content;
+        padding-right: 1rem;
+        
+    }
+    
+    #menu {
+        display:flex;
+        flex-direction: row;
+         
+    }
+    
+    #menu > li {
+        padding-left:1rem;
+        list-style-type: none;
+    }
+    
+    .nav-toggle-label {
+        display: none;
+    }
+
     #menu a:hover{
         border-bottom: 1px solid #3a3a3a;
     }
@@ -375,10 +405,7 @@ footer p {
         margin: 0 0.5rem;
     }
      /*Main Content*/
-    #menu {
-        display: flex;
-        font-size: 125%;
-    }
+   
     /*Hero*/
     #cover-text {
         width: 600px;
