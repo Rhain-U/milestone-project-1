@@ -538,6 +538,16 @@ footer p {
         justify-self: center;
         
     }
+
+    #contact {
+        width: 75%;
+        
+    }
+
+    #form {
+        width: 50%;
+        
+    }
    
 }
    /*Media queries: XL screens (1000px and up.)*/
