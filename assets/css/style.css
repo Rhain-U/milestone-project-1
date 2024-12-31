@@ -415,6 +415,12 @@ footer p {
         width: 80%;
 
     }
+
+    /*Footer section*/
+
+    #email {
+        font-size: 25px;
+    }
 }
     
 /*Media queries: Laptops & Desktops (992px and up.)*/
@@ -548,6 +554,12 @@ footer p {
     #form {
         width: 50%;
         
+    }
+
+    /*Footer section*/
+
+    #email {
+        font-size: 25px;
     }
    
 }
