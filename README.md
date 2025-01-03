@@ -23,11 +23,12 @@ The site is responsive for all screen sizes.
 * The Header
     -  At the top left in the header section, there is a company name, that will take the user to the home page when clicked.   
     -   I chose the Gruppo font for the header and company name which I then inherited widly across the rest of the website. I fealt that the font is a kind, soft font but also looks very proffesional. 
-![Screenshot of the header containing company logo and navigation bar](/assets/images/header_image.png)
+
+![Screenshot of the header containing company name and navigation bar](/assets/images/header.png)
 
 * The Home page
-    -   This is the landing page and with it's colourful and inviting picture of people jumping in the sunset it aspires to bring motivation to the user to take the step towards a healthier lifestyle.
-![Screenshot of the landing page image with people on beach in sunset with the text "Become the best version of you!"](/assets/images/new_hero_img.jpg)
+    -   This is the landing page which shows the hero image of two people having a counselling meeting with the company slogan over the top. The company slogan has a dark green background which has an opacity of 0.8 with the slogan in white bold. This ensures that the text is clear and easy to read whilst also giving a calm relaxing vibe to the main page. I have used lavendar, olive green, and dark green colours throughout the site to give it a calm and relaxing feel.  
+![Screenshot of the landing page image with two people having a counselling session with the welcome message and slogan " Welcome to Pathway Supporting every step "](/assets/images/new-hero-image.png)
     -   The section below conatins information on WHY the user should take this step and embark on a journey to unlock their full potential. In the text there is a link under the word Tools that brings the user to the services page when clicked.
     -   The section HOW explains how easy it is to get in contact. In the text there is a link under the word Form that brings the user to the contact page when clicked.
     -   There is a picture of me, the Coach, to give a more personalized feeling.
