@@ -29,17 +29,35 @@ The site is responsive for all screen sizes.
 * The Home page
     -   This is the landing page which shows the hero image of two people having a counselling meeting with the company slogan over the top. The company slogan has a dark green background which has an opacity of 0.8 with the slogan in white bold. This ensures that the text is clear and easy to read whilst also giving a calm relaxing vibe to the main page. I have used lavendar, olive green, and dark green colours throughout the site to give it a calm and relaxing feel.  
 ![Screenshot of the landing page image with two people having a counselling session with the welcome message and slogan " Welcome to Pathway Supporting every step "](/assets/images/new-hero-image.png)
-    -   The section below conatins information on WHY the user should take this step and embark on a journey to unlock their full potential. In the text there is a link under the word Tools that brings the user to the services page when clicked.
-    -   The section HOW explains how easy it is to get in contact. In the text there is a link under the word Form that brings the user to the contact page when clicked.
-    -   There is a picture of me, the Coach, to give a more personalized feeling.
-    -   The section the COACH tells more about the certifications and qualifications that the coach possess.
-![Screenshot of the reasons sections with info on why and how to take the step, and a photo of the coach and information about the coach](/assets/images/why_how_coach_links.png)
+    The section below is our about us section. This consists of 3 different areas, Who we are, our approach and why choose us.
+    -   The section who we are explains who we are as a company and what we aim to provide. I have also included an image of 2 hands reaching out to each other as shown in the screenshot below.
+    -   Our approach explains how we like to tailor each users journey to ensure they get the best possible outcome to suit the users needs. This is acompanied by an image of 2 people having coffee together.
+    - Why choose us. This explains that we have qualified counsellors who specify in different areas of counselling. This makes sure that the clients will get the best possible counseling based on their choice. This acompanied by an image of 2 people having a meeting over laptop.
 
+![Screenshot of the about us section showcasing the Who we are, our approach and why choose us.](/assets/images/about-us.png)
+
+* Services
+- The services section is built up of 4 different cards each showing a diferent type of counselling service we provide. Underneath each title will be a short discription of what that service covers, at the bottom of each card is a one click button which will then take you to the contact page.
+
+The services included are as followed:
+- Stress and Anxiety management.
+- Grief and loss.
+- Addiction and recovery support.
+- Relationship issues.
+
+![Screenshot of the services section](/assets/images/services.png)
+
+* Privacy
+- Below the services is a card which has a brief description of our privacy policy with a one click button which will take you to the privacy page. This will allow users to read the full privacy policy. This will help ensure that our users feel trusted when using our site as privacy is a key factor for any counselling body. 
+
+![Screenshot of the privacy card section. This takes users to the full privacy page wher ethey are able to read the full policy. ](/assets/images/privacy-card.png)
 
 * The Footer
     -   The footer section includes relevant links to Facebook, Instagram and Youtube.
-    -   The links will open in a new tab and they aspire to give the user more motivation to take the lifechanging step.
+    -   The links will open in a new tab and encourage the user to take the next step.
+
 ![Screenshot of the Footer with social media links](/assets/images/footer.png)
+
 * The Services page
     -   The services page gives the user information on what services are offered
     -   Personal Training. A picture with training equipment, kettlebells, and an informational text on the benefits with personal training and functional fitness.
