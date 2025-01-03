@@ -359,6 +359,10 @@ footer p {
         padding-right: 1rem;
         
     }
+
+    header {
+        height: 75px;
+    }
     
     #menu {
         display:flex;
@@ -449,6 +453,10 @@ footer p {
     
     .nav-toggle-label {
         display: none;
+    }
+
+    header {
+        height: 75px;
     }
 
     #menu a:hover{
