@@ -40,31 +40,36 @@ The site is responsive for all screen sizes.
 
 * The Home page
     -   This is the landing page which shows the hero image of two people having a counselling meeting with the company slogan over the top. The company slogan has a dark green background which has an opacity of 0.8 with the slogan in white bold. This ensures that the text is clear and easy to read whilst also giving a calm relaxing vibe to the main page. I have used lavender, olive green, and dark green colours throughout the site to give it a calm and relaxing feel.  
+
 ![Screenshot of the landing page image with two people having a counselling session with the welcome message and slogan " Welcome to Pathway Supporting every step "](/assets/images/new-hero-image.png)
+
     The section below is our about us section. This consists of 3 different areas, Who we are, our approach and why choose us.
+
     -   The section who we are explains who we are as a company and what we aim to provide. I have also included an image of 2 hands reaching out to each other as shown in the screenshot below.
-    -   Our approach explains how we like to tailor each user's journey to ensure they get the best possible outcome to suit the user's needs. This is accompanied by an image of 2 people having coffee together.
-    - Why choose us. This explains that we have qualified counsellors who specify in different areas of counselling. This makes sure that the clients will get the best possible counseling based on their choice. This is accompanied by an image of 2 people having a meeting over a laptop.
+
+    -   Our approach explains how we like to tailor each user's journey to ensure they get the best industry professional to suit the user's needs. This is accompanied by an image of 2 people having coffee together.
+
+    - Why choose us? This explains that we have qualified counsellors who specify in different areas of counselling. This makes sure that the clients will get the best possible counseling based on their choice. This is accompanied by an image of 2 people having a meeting over a laptop.
 
 
 ![Screenshot of the about us section showcasing the Who we are, our approach and why choose us.](/assets/images/about-us.png)
 
 
 * Services
+
 - The services section is built up of 4 different cards each showing a different type of counselling service we provide. Underneath each title will be a short description of what that service covers, at the bottom of each card is a one click button which will then take you to the contact page.
 
-
 The services included are as followed:
+
 - Stress and Anxiety management.
 - Grief and loss.
 - Addiction and recovery support.
 - Relationship issues.
 
-
 ![Screenshot of the services section](/assets/images/services.png)
 
-
 * Privacy
+
 - Below the services is a card which has a brief description of our privacy policy with a one click button which will take you to the privacy page. This will allow users to read the full privacy policy. This will help ensure that our users feel trusted when using our site as privacy is a key factor for any counselling body.
 
 
@@ -72,6 +77,7 @@ The services included are as followed:
 
 
 * The Footer
+
     -   The footer section includes relevant links to Facebook, Instagram and Youtube.
     -   The links will open in a new tab and encourage the user to take the next step.
 
@@ -80,6 +86,7 @@ The services included are as followed:
 
 
 * The Contact page
+
     -   The contact page consists of a short paragraph with reasons to contact us and why.
     -   Contact form that allows the user to fill in the necessary contact details to easily get in touch. They are also required to choose which service best suits the user.
     -   Submit button says Start your journey! Which is a friendly motivational message for the user to get in touch.
@@ -89,11 +96,14 @@ The services included are as followed:
 
 
 ### Features left to implement
+
 -   I chose to develop a counselling website for my first project as my mother has recently become a qualified counsellor and is in the process of setting up her own business and needs a website, therefore I will make the necessary changes when the time is right to make it her own.
 
 
 ## Testing
+
 -   Accessibility
+
     -   I ran the pages through Lighthouse and confirmed that the colors and fonts are easy to read and that the site is accessible.
 
 
@@ -165,6 +175,7 @@ z-index: 1000;
 
 
 ### Version Control
+
 -   The site was created using Gitpod editor and pushed to Github to the remote repository 'milestone-project-1'.
 -   Git commands were used throughout the development to push the code to the remote repository. The following git commands were used:
     -   git add . - to add the files to the staging area before being committed.
@@ -173,6 +184,7 @@ z-index: 1000;
 
 
 ### Deployment to Github pages
+
 -   The site was deployed to Github pages as follows:
     -   In the Github repository, I navigated to Settings tab
     -   From the source section drop-down menu, I selected the Master branch and Save
@@ -181,6 +193,7 @@ z-index: 1000;
 
 
 ### Cloning of the Repository Code locally
+
 -   Go to the Github repository that you want to clone
 -   Click on the Code button located above all the project files
 -   Click on HTTPS and copy the repository link
@@ -189,6 +202,7 @@ z-index: 1000;
 
 
 ## Wireframes
+
 -   The site was developed with the Mobile-first method before moving onto tablet then desktop. The wireframes were therefore drawn with that thought in mind, and created with [Balsamiq](https://balsamiq.cloud/snx9v5f/pmhksri/rB1D0). First pictures: Home page, Second pictures: Contact page, Third pictures: Privacy page.
 
 
@@ -211,17 +225,22 @@ z-index: 1000;
 
 
 ## Credits
+
 - A special thanks to my Mentor for the support throughout milestone one.
 - I would like to thank tutor support who have been a big help with some of the tricky bits
 - Lastly I would like to Thank Rachel who has been keeping us up to date with regular weekly meetings and provided all the tools used to complete milestone one.
+
 ### Content
+
 -   The icons in the footer and in the headings were taken from [Font Awesome](https://fontawesome.com/)  
 The social media links to Facebook and Instagram are the real ones this company is using.
 -   The Favicon in the Title of the page was taken from [Favicon](https://favicon.io/emoji-favicons/)
 -   I took inspiration from the Love Running project to create the header, main content & footer and Bootstrap for the contact form and service section.
 - The fonts I used were from [Google fonts] (https://fonts.google.com/)
 - I used Chat GPTfor the content e.g. About us paragraphs and service cards. [Chat-GPT] (https://chatgpt.com/)
-### Media
+
+### media
+
 -   The images in the hero section, on the services page and the contact page was taken from [Unsplash](https://unsplash.com/) and [Pexels] (https://www.pexels.com/)
 
 
