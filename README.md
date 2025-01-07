@@ -64,13 +64,13 @@ The site is responsive for all screen sizes.
 
 ![Screenshot of the landing page image with two people having a counselling session with the welcome message and slogan " Welcome to Pathway Supporting every step "](/assets/images/new-hero-image.png)
 
-    The section below is our about us section. This consists of 3 different areas, Who we are, our approach and why choose us.
+The section below is our about us section. This consists of 3 different areas, Who we are, our approach and why choose us.
 
-    -   The section who we are explains who we are as a company and what we aim to provide. I have also included an image of 2 hands reaching out to each other as shown in the screenshot below.
+-   The section who we are explains who we are as a company and what we aim to provide. I have also included an image of 2 hands reaching out to each other as shown in the screenshot below.
 
-    -   Our approach explains how we like to tailor each user's journey to ensure they get the best industry professional to suit the user's needs. This is accompanied by an image of 2 people having coffee together.
+-   Our approach explains how we like to tailor each user's journey to ensure they get the best industry professional to suit the user's needs. This is accompanied by an image of 2 people having coffee together.
 
-    - Why choose us? This explains that we have qualified counsellors who specify in different areas of counselling. This makes sure that the clients will get the best possible counseling based on their choice. This is accompanied by an image of 2 people having a meeting over a laptop.
+- Why choose us? This explains that we have qualified counsellors who specify in different areas of counselling. This makes sure that the clients will get the best possible counseling based on their choice. This is accompanied by an image of 2 people having a meeting over a laptop.
 
 
 ![Screenshot of the about us section showcasing the Who we are, our approach and why choose us.](/assets/images/about-us.png)
