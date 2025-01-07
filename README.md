@@ -28,14 +28,14 @@ The site is responsive for all screen sizes.
 
     -   #### First Time Visitor Goals
 
-        1. As a First Time therapy user, I want to know more about the company and what you do.
-        2. As a First Time therapy user, I want to be able to easily navigate throughout the site to find out what types of therapy you offer.
+        1. As a First Time therapy user, I want to know more about the company and what they do.
+        2. As a First Time therapy user, I want to be able to easily navigate throughout the site to find out what types of therapy they offer.
         3. As a First Time therapy user, I want to know that the website is secure and that my personal information will be kept confidential.
 
     -   #### Returning Visitor Goals
 
         1. As a Returning Visitor, I want to be able to contact the company to book in a therapy session.
-        2. As a Returning Visitor, I want to locate their social media links to see their followings on social media to determine how trusted and known they are.
+        2. As a Returning Visitor, I want to locate their social media links to see how many followers they have on social media to find out what following they have and how legitimate they are.
         
     -   #### Frequent User Goals
         1. As a Frequent therapy user, I want to be able to book personalised therapy sessions depending on my needs at that time.
@@ -122,6 +122,75 @@ The services included are as followed:
 
 
 ## Testing
+
+
+### Testing User Stories from User Experience (UX) Section
+
+
+-   #### First Time Visitor Goals
+
+
+1. As a First Time therapy user, I want to know more about the company and what they do.
+
+
+    1. Upon entering the site, users are automatically greeted with a clean and easily readable title "Pathway counselling" and navigation bar which will take the user to the contact or privacy page. Underneath there is a Hero Image with a welcome message "Welcome to pathway with the company slogan.
+    2. The main points are made immediately with the title, hero image and slogan.
+    3. The user has the option to click the home, contact or privacy page. The user also has the option to scroll down, to learn more about the company.
+
+
+![Homepage layout](/assets/images/homepage-screenshot.png)
+
+
+2. As a First Time therapy user, I want to be able to easily navigate throughout the site to find out what types of therapy they offer.
+
+
+    1. The site is designed to flow extremely well and show consistancy throughout whilst also aiming to be straight to the point and provide clear information.
+    2. After the User has read through the the about us section to ind out what we do, what our approach is and why they should choose us, the Users will then come across the different types of servives we provide with a brief description of what each one covers.
+
+
+![Services layout](/assets/images/services.png)
+
+
+3.  As a First Time therapy user, I want to know that the website is secure and that my personal information will be kept confidential.
+       
+    1. Further down the page just below the services section is a call to action card, when clicked this will take the user to our privacy policy where they can read the full policy.
+    2. In the footer of the page the user will be able to see social media accounts, which when clicked will open the social media accounts externally and view the content there.
+   
+![Privacy call to action layout](/assets/images/privacy-card.png)
+
+
+-   #### Returning Visitor Goals
+
+
+    1. As a Returning Visitor, I want to be able to contact the company to book in a therapy session.
+
+
+        1. The user is able to contact the company via a form on the contact page.
+
+
+    ![Contact form](/assets/images/contact-form.png)    
+
+
+    2. As a Returning Visitor, I want to locate their social media links to see how many followers they have on social media to find out what following they have and how legitimate they are.
+
+
+        1. The user can find our social media links in the footer on each page. They can also find our email address in case they would like to email us directly with any questions they may have before signing up to any sessions.
+
+
+![Portfolio layout](/assets/images/footer.png)
+
+
+-   #### Frequent User Goals
+
+
+    1. As a Frequent therapy user, I want to be able to book personalised therapy sessions depending on my needs at that time.
+
+
+        1. On the contact form there is a drop down menu where the user can select which type of counselling best suits their needs. This will then pair them with a professional in that area of expertise.
+
+
+ 
+   ## Further testing        
 
 -   Accessibility
 
