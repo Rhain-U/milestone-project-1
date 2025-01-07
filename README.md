@@ -22,6 +22,27 @@ The site is responsive for all screen sizes.
 ![Screenshot of the websites homepage on different devices](assets/images/responsive.png)
 
 
+## User Experience (UX)
+
+-   ### User stories
+
+    -   #### First Time Visitor Goals
+
+        1. As a First Time therapy user, I want to know more about the company and what you do.
+        2. As a First Time therapy user, I want to be able to easily navigate throughout the site to find out what types of therapy you offer.
+        3. As a First Time therapy user, I want to know that the website is secure and that my personal information will be kept confidential.
+
+    -   #### Returning Visitor Goals
+
+        1. As a Returning Visitor, I want to be able to contact the company to book in a therapy session.
+        2. As a Returning Visitor, I want to locate their social media links to see their followings on social media to determine how trusted and known they are.
+        
+    -   #### Frequent User Goals
+        1. As a Frequent therapy user, I want to be able to book personalised therapy sessions depending on my needs at that time.
+        
+
+
+
 ## Features
 * Navigation Bar
     -   Featured at the top of all three pages, the navigation links are situated to the right.
